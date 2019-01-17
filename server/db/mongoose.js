@@ -4,7 +4,7 @@ let db = {
 	mlab: 'mongodb://howard:asdf1234@ds159164.mlab.com:59164/howard_todo'
 };
 mongoose.Promise = global.Promise;
-mongoose.connect(db.mlab || db.localbost);
+mongoose.connect(db.localhost || db.mlab);
 
 module.exports = {
 	mongoose: mongoose
