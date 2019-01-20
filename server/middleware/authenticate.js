@@ -1,3 +1,7 @@
+// Find if a user is valid:
+// A token will be passed in.
+// 	token => user
+
 var {User} = require('./../models/user');
 
 var authenticate = (req, res, next) => {
